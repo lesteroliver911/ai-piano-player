@@ -9,7 +9,6 @@
 ## 🎵 Generated Samples
 
 Check out some example compositions in our [generated samples folder](generated_samples/):
-- [Happy Birthday (MIDI/MP3)](generated_samples/happy_birthday_midi.mp3)
 
 ## ✨ Overview
 

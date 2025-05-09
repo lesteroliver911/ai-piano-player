@@ -2,15 +2,16 @@
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/lesteroliver911/ai-piano-player?style=social)
-![GitHub forks](https://img.shields.io/github/forks/lesteroliver911/ai-piano-player?style=social)
-![GitHub license](https://img.shields.io/github/license/lesteroliver911/ai-piano-player)
-
 **Generate beautiful piano music with AI using natural language prompts**
 
 [View Demo](#) | [Report Bug](https://github.com/lesteroliver911/ai-piano-player/issues) | [Request Feature](https://github.com/lesteroliver911/ai-piano-player/issues)
 
 </div>
+
+## 🎵 Generated Samples
+
+Check out some example compositions in our [generated samples folder](generated_samples/):
+- [Happy Birthday (MIDI/MP3)](generated_samples/happy_birthday_midi.mp3)
 
 ## ✨ Overview
 
@@ -27,6 +28,19 @@ Simply describe the kind of music you want to hear, and watch as the AI creates 
 - **💾 MIDI Export**: Download your compositions as MIDI files for use in other music software
 - **🎛️ Playback Controls**: Adjust tempo and volume to perfect your listening experience
 - **🎨 Responsive Design**: Works on desktop and mobile devices
+
+## ⚠️ Known Issues
+
+Current limitations that are being addressed:
+
+1. **Nursery Rhymes Quality**: While nursery rhymes are mostly on point, we're working to make performances sound more human-like. Current generations sound more like a beginner pianist.
+
+2. **Generation Consistency**: Some generations can be random. So far, testing has only been done with OpenAI's API. Support for Claude and Gemini is planned.
+
+3. **Limited Instruments**: Currently only one piano instrument is available. Support for additional instruments is in development.
+
+4. **Download Formats**: Only MIDI download is available for now. MP3 and WAV downloads will be added soon.
+
 
 ## 🚀 Getting Started
 
@@ -82,16 +96,13 @@ The application uses:
 
 The AI generates between 32-128 notes per composition, using proper musical phrasing with tension and resolution, clear melodic themes, and harmonically coherent progressions.
 
+
 ## 🛣️ Roadmap
 
 This is just the start! Future enhancements include:
 
 - [ ] Multiple instrument options
-- [ ] Multi-track compositions
 - [ ] Advanced music theory controls
-- [ ] Style transfer capabilities
-- [ ] Saving compositions to a library
-- [ ] Collaborative editing features
 
 ## 🤝 Contributing
 

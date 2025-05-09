@@ -4,7 +4,7 @@
 
 ### Demo Video
 Watch our demo video to see the AI Piano Performer in action:
-<video src="aipiano.mp4" controls width="800"></video>
+<video src="aipiano-demo.mp4" controls width="800"></video>
 
 ## ✨ Overview
 

@@ -2,9 +2,6 @@
 
 ![AI Piano Performer Screenshot](https://github.com/lesteroliver911/ai-piano-player/blob/main/ai_performer.jpg)
 
-### Demo Video
-Watch our demo video to see the AI Piano Performer in action:
-<video src="aipiano-demo.mov" controls width="800"></video>
 
 ## ✨ Overview
 

@@ -1,14 +1,12 @@
-# The AI Piano Performer
-
-<div align="center">
-
-**Generate beautiful piano music with AI using natural language prompts**
-
-</div>
+# The AI Piano Performer - Generate beautiful piano music with AI using natural language prompts
 
 ## 🎵 Generated Samples
 
 Check out some example compositions in our [generated samples folder](generated_samples/):
+
+### Demo Video
+Watch our demo video to see the AI Piano Performer in action:
+![Demo Video](demo_video/ai_piano.mp4)
 
 ## ✨ Overview
 
@@ -16,7 +14,6 @@ The AI Piano Performer is an interactive web application that generates piano mu
 
 Simply describe the kind of music you want to hear, and watch as the AI creates a unique piano composition tailored to your request. No musical experience required!
 
-![App Screenshot](https://via.placeholder.com/800x400?text=AI+Piano+Performer+Screenshot)
 
 ## 🎹 Features
 
@@ -86,7 +83,7 @@ Current limitations that are being addressed:
 The application uses:
 
 - **React** and **TypeScript** for the frontend UI
-- **OpenAI's API** for generating musical compositions
+- **OpenAI's GPT-4o** for generating musical compositions
 - **Web Audio API** for real-time audio playback
 - **Tone.js** for audio processing
 - **MIDI.js** for MIDI file handling
@@ -107,7 +104,9 @@ This is just the start! Future enhancements include:
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Contact
-Linked In: https://www.linkedin.com/in/lesteroliver/
+
+Lester Oliver - https://www.linkedin.com/in/lesteroliver/
+
 Project Link: [https://github.com/lesteroliver911/ai-piano-player](https://github.com/lesteroliver911/ai-piano-player)
 
 ---

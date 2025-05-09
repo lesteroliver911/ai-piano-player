@@ -6,7 +6,7 @@ Check out some example compositions in our [generated samples folder](generated_
 
 ### Demo Video
 Watch our demo video to see the AI Piano Performer in action:
-<video src="demo_video/ai_piano.mp4" controls width="800"></video>
+<video src="demo_video/aipiano.mp4" controls width="800"></video>
 
 ## ✨ Overview
 

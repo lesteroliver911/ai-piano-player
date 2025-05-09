@@ -13,7 +13,7 @@ import PianoKeyboard from "./PianoKeyboard";
 import PromptInput from "./PromptInput";
 import PlaybackControls from "./PlaybackControls";
 import ApiKeyModal from "./ApiKeyModal";
-import { Music, Sparkles } from "lucide-react";
+import { Music, Sparkles, Github } from "lucide-react";
 import { 
   generateMusicFromPrompt, 
   hasApiKey, 
@@ -218,7 +218,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background p-6 flex flex-col items-center">
-      <header className="w-full max-w-6xl mb-8 text-center">
+      <header className="w-full max-w-6xl mb-8 text-center relative">
         <div className="flex items-center justify-center gap-2 mb-2">
           <Music size={32} className="text-primary" />
           <h1 className="text-4xl font-bold tracking-tight">The AI Piano Performer</h1>
@@ -227,6 +227,15 @@ export default function Home() {
         <p className="text-muted-foreground text-lg">
           A cool fun project that combines music passion and AI knowledge
         </p>
+        <a 
+          href="https://github.com/lesteroliver911/ai-piano-player" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="absolute top-0 right-0 inline-flex items-center hover:text-primary transition-colors p-2"
+          aria-label="GitHub Repository"
+        >
+          <Github size={24} />
+        </a>
       </header>
 
       <main className="w-full max-w-6xl flex flex-col items-center gap-8">
@@ -287,7 +296,9 @@ export default function Home() {
       </main>
 
       <footer className="mt-12 text-center text-sm text-muted-foreground">
-        <p>Powered by GPT-4o • Piano music generation through AI</p>
+        <p className="flex items-center justify-center gap-2">
+          Prompt engineered and developed with ❤️ by <a href="https://lesteroliver.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">lesteroliver</a>
+        </p>
       </footer>
 
       {/* API Key Modal */}

@@ -4,8 +4,6 @@
 
 **Generate beautiful piano music with AI using natural language prompts**
 
-[View Demo](#) | [Report Bug](https://github.com/lesteroliver911/ai-piano-player/issues) | [Request Feature](https://github.com/lesteroliver911/ai-piano-player/issues)
-
 </div>
 
 ## 🎵 Generated Samples
